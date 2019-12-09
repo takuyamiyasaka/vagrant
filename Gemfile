@@ -62,6 +62,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #画像投稿用
-gem "refile",requier: "refile/rails",github: "manfe/refile"
+gem "refile", require: "refile/rails", github: "manfe/refile"
 #画像加工
 gem "refile-mini_magick"
